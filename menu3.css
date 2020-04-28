@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'Worstveld Sling Extra Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Worstveld Sling Extra Oblique'), url('fonts/WorstveldSlingExtraOblique.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mcgannahan';
+    src:url('fonts/Mcgannahan.ttf.woff') format('woff'),
+        url('fonts/Mcgannahan.ttf.svg#Mcgannahan') format('svg'),
+        url('fonts/Mcgannahan.ttf.eot'),
+        url('fonts/Mcgannahan.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+{
+ margin:0px;
+}
+
+
+
+.maintitle
+{
+	display: flex;
+	background-color: #579c87;
+	justify-content: center;
+	color:#fdcb46;
+	font-size: 40px;
+	font-weight: bold;
+	
+}
+
+
+img {
+  margin: 40px 0px 40px 0px;
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+}
+
+main
+{
+	background-color: #edefef;
+	margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    font-family: 'Mcgannahan';
+	
+}
+
+
+h1
+{
+	font-size: 30px;
+	text-align: center;
+}
+
+h2
+{
+	text-align: center;
+	padding-top:50px;
+	padding-bottom: 50px;
+	font-size: 60px;
+	font-family: 'Worstveld Sling Extra Oblique';
+   background: -webkit-linear-gradient(#0228dd, #229df9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.underline1
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 20px;
+}
+
+.underline2
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 20px;
+}
+
+.underline3
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 20px;
+}
+
+.trait
+{
+	width: 400px;
+}
+
+.underline1 h3 {
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.underline1 h3:after {
+	height: 2px;
+    width: 0;
+    display: block;
+    content:''; 
+    transition: all 0.3s ease-in-out;
+}
+
+.underline1 h3:hover:after {
+    width: 100%;
+    background: #0228dd;
+}
+
+.underline2 h3 {
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.underline2 h3:after {
+	height: 2px;
+    width: 0;
+    display: block;
+    content:''; 
+    transition: all 0.3s ease-in-out;
+}
+
+.underline2 h3:hover:after {
+    width: 100%;
+    background: #0670f3;
+}
+
+.underline3 h3 {
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.underline3 h3:after {
+	height: 2px;
+    width: 0;
+    display: block;
+    content:''; 
+    transition: all 0.3s ease-in-out;
+}
+
+.underline3 h3:hover:after {
+    width: 100%;
+    background: #229df9;
+}
+
+li
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 30px;
+	font-size: 20px;
+}
+
+
+
+#bottom
+{
+	padding-bottom: 50px;
+	margin-bottom: 60px;
+}
+
+
+
+
+footer
+{
+	display: flex;
+	background-color: #579c87;
+	justify-content: space-between;
+	color:#fdcb46;
+	font-size: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: sticky;
+	bottom :0px;
+
+	}
+
+
+a
+  {
+    text-decoration: none; color:#fdcb46;
+  }
+
+
+  .wiggle:hover {
+ 
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+     @media screen and (max-width: 1000px)
+{
+
+
+main
+{
+	background-color: #edefef;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+	font-family: 'Mcgannahan';
+}
+
+
+section
+  {
+ display: flex;
+  flex-direction: column;
+    width: 100%;
+    text-align: center;
+  }
+
+  li
+{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin:auto;
+}
+
+.prix
+{
+	font-size: 30px;
+}
+
+ }
