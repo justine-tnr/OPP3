@@ -1,0 +1,372 @@
+@font-face {
+    font-family: 'Devonshire Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Devonshire Regular'), url('fonts/Devonshire-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Mcgannahan';
+    src:url('fonts/Mcgannahan.ttf.woff') format('woff'),
+        url('fonts/Mcgannahan.ttf.svg#Mcgannahan') format('svg'),
+        url('fonts/Mcgannahan.ttf.eot'),
+        url('fonts/Mcgannahan.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Street Corner Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Street Corner Oblique'), url('fonts/Street Corner Oblique.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'AdamantBG-Bold';
+    src:url('fonts/AdamantBG-Bold.ttf.woff') format('woff'),
+        url('fonts/AdamantBG-Bold.ttf.svg') format('svg'),
+        url('fonts/AdamantBG-Bold.ttf.eot'),
+        url('fonts/AdamantBG-Bold.ttf.eot') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Street Corner';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Street Corner'), url('fonts/Street Corner.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Croissant One Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Croissant One Regular'), url('fonts/CroissantOne-Regular.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Kaushan Script'), url('fonts/KaushanScript-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Worstveld Sling Extra';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Worstveld Sling Extra'), url('fonts/WorstveldSlingExtra.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Worstveld Sling Extra Oblique';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Worstveld Sling Extra Oblique'), url('fonts/WorstveldSlingExtraOblique.woff') format('woff');
+}
+
+
+i
+   {
+    font-size: 70px;
+  background: -webkit-linear-gradient(#f36d68, #f78f6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+header
+{
+	display: flex;
+	background-color: #579c87;
+	justify-content: center;
+}
+
+img {
+  margin: 40px 0px 40px 0px;
+  max-width: 100%;
+  height: auto;
+  width: 300px;
+}
+
+body
+{
+ margin:0px;
+}
+
+
+main
+{
+ display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+     overflow: hidden;
+  }
+
+  section
+  {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height: 760px;
+  justify-content: center;
+  text-align: center;
+   box-shadow: 5px 5px 5px 5px #EDEDED;
+  }
+
+  .menu1
+  {
+    background-color: #fcdfdb;
+    font-family: 'Devonshire Regular';
+    color: #3c1218;
+    font-size: 25px;
+  }
+
+  #menu1__heading
+  {
+    font-family: 'Street Corner Oblique';
+  }
+
+.menu1:hover
+{
+	opacity: 0.7;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-in;
+}
+
+
+  .menu2
+{
+  background-color: #fff5fe;
+  font-family: 'Croissant One Regular';
+}
+
+.menu2:hover
+{
+	opacity: 0.7;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-in;
+}
+
+  .menu3
+  {
+    background-color: #f9f9f9;
+     font-family: 'Worstveld Sling Extra';
+
+}
+  
+.menu3:hover
+{
+	opacity: 0.7;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-in;
+}
+
+.menu4:hover
+{
+	opacity: 0.7;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-in;
+}
+  .menu4
+{
+  background-color: #eff1ef;
+  font-family: 'Kaushan Script';
+}
+
+
+.menu2__title
+{
+   font-size: 40px;
+   background: -webkit-linear-gradient(#d8852e, #a778f4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu3__title
+{
+      font-size: 60px;
+    background: -webkit-linear-gradient(#0431df, #0887fb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.menu4__title
+{
+    font-size: 40px;
+   background: -webkit-linear-gradient(#3d9339, #bfff7e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+#menu1__heading
+{
+  font-size: 60px;
+}
+
+#menu2__heading
+{
+  font-size: 60px;
+  color: #c77412;
+  font-family: 'AdamantBG-Bold';
+}
+
+#menu3__heading
+{
+  font-size: 60px;
+  color: #54a8f9;
+  font-family: 'Mcgannahan';
+ }
+
+#menu4__heading
+{
+  font-size: 60px;
+  color: #3d9339;
+  font-family: 'Mcgannahan';
+}
+
+
+.btn
+{
+  background-color: #579c87;
+  border: none;
+  color: #fdcb46;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+ }
+
+footer
+{
+	display: flex;
+	background-color: #579c87;
+	justify-content: space-between;
+	color:#fdcb46;
+	font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+	position: sticky;
+	bottom :0px;
+	}
+
+.zoom
+{
+	
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+  	align-items: center;
+  	height: 100%;
+  	width: 100%;
+  	transform: scale(1);
+    transition-property: transform;
+    transition-duration: 400ms;
+}
+
+.zoom:hover
+{
+        transform: scale(1.15);
+}
+
+
+  .loading:after {
+display: inline-block;
+animation: dot steps(1,end) 2s infinite;
+content: '';
+}
+@keyframes dot {
+0%   { content: ''; }
+25%  { content: '.'; }
+50%  { content: '..'; }
+75%  { content: '...'; }
+100% { content: ''; }
+}
+
+.wiggle:hover {
+ 
+  animation: wiggle 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes wiggle {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+	
+  a
+  {
+    text-decoration: none; color:#fdcb46;
+  }
+
+
+  @media screen and (max-width: 1000px)
+{
+
+
+main
+{
+  display: grid;
+  grid-template-columns: 1fr;
+ display: grid;
+    grid-row-gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+
+.menu1
+{
+  height: 1000px;
+  width:auto;
+}
+
+.menu2
+{
+  height: 1000px;
+width:auto;
+}
+
+.menu3
+{
+  height: 1000px;
+ width:auto;
+  }
+
+
+.menu4
+
+{
+  height: 1000px;
+width:auto;
+}
+
+
+  .btn
+  {
+    margin-top: 40px;
+   }  
+}  
